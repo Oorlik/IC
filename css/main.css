@@ -333,3 +333,50 @@ padding-top: 5%;
   width: 5%;
   padding-left:20px;
 }
+.container {
+  background: #5999ff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 450px;
+ 
+  margin: 50px auto;
+  margin-top: 200px;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.checkbox {
+  text-align: left;
+  margin: 10px 0;
+}
+.submit-btn {
+  background: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.submit-btn:hover {
+  background: darkblue;
+}
+.privacy-policy {
+  font-size: 15px;
+  margin-top: 15px;
+  text-align: left;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.privacy-policy h3 {
+  font-size: 14px;
+}
+.privacy-policy p {
+  font-size: 12px;
+  margin: 5px 0;
+}
